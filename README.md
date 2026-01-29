@@ -18,6 +18,16 @@ I designed Story Sage to be an immersive storytelling engine that acts as your p
   <img src="public/EndCard.png" alt="The Final Scene ending card" width="700" style="border-radius: 10px;" />
 </p>
 
+</p>
+
+## Real World Impact
+
+StorySage is built as an entertainment demo, but the same idea can be used in real products.
+
+- **Education :** It can turn history or training topics into interactive stories, where users learn by making choices instead of just reading.
+- **Creative Therapy :** It helps people who are stuck while writing by quickly turning a small idea into a structured story.
+- **Gaming :** The system can be used to create story driven characters or branching storylines in games.
+
 ## Technical Overview
 
 **AI Model :** Groq (Llama 3.1 8b Instant)

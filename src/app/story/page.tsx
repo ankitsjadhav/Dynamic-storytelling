@@ -136,6 +136,8 @@ export default function StoryPage() {
                 isSpeaking={isSpeaking}
                 onToggleSpeech={toggleSpeech}
                 onExit={() => router.push("/")}
+                onBack={goBack}
+                onForward={goForward}
             />
 
             <StoryNavigation
@@ -145,7 +147,7 @@ export default function StoryPage() {
                 historyLength={history.length}
             />
 
-            <main className="relative z-10 flex-1 flex flex-col justify-center items-center p-4 md:p-8 w-full max-w-none">
+            <main className="relative z-10 flex-1 flex flex-col justify-center items-center px-4 pt-24 pb-8 md:p-8 w-full max-w-none">
                 <CinematicTitleOverlay
                     isVisible={
                         showTitleCard && !isViewingHistory && !isLoading && !errorState

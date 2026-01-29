@@ -16,7 +16,7 @@ export function StoryNavigation({
 }: StoryNavigationProps) {
     return (
         <>
-            <div className="fixed inset-y-0 left-0 z-30 flex items-center px-4 md:px-8 pointer-events-none">
+            <div className="fixed inset-y-0 left-0 z-30 hidden md:flex items-center px-4 md:px-8 pointer-events-none">
                 <Button
                     variant="ghost"
                     size="icon"
@@ -30,7 +30,7 @@ export function StoryNavigation({
                 </Button>
             </div>
 
-            <div className="fixed inset-y-0 right-0 z-30 flex items-center px-4 md:px-8 pointer-events-none">
+            <div className="fixed inset-y-0 right-0 z-30 hidden md:flex items-center px-4 md:px-8 pointer-events-none">
                 <Button
                     variant="ghost"
                     size="icon"

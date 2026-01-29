@@ -58,6 +58,8 @@ I built the entire application with Next.js 15 to keep the frontend and backend 
 
     ```env
     GROQ_API_KEY=your_groq_api_key
+    # Optional: Set to true to test without an API key
+    USE_MOCK_AI=false
     ```
 
 4.  **Run the development server**
